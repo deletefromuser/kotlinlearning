@@ -11,9 +11,11 @@ import android.view.Menu
 import android.view.MenuItem
 import com.example.kotlinlearning.databinding.ActivityMainBinding
 
-typealias B = Bar;
+typealias B = Bar
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity {
+
+    constructor() : super()
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
